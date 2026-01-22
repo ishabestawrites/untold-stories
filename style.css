@@ -117,3 +117,21 @@ ol li {
     margin-bottom: 15px;
     text-align: justify;
 }
+/* Shirgul Maharaj story text size */
+.story-container {
+    font-size: 20px;
+    line-height: 1.9;
+}
+
+.story-container p {
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.story-container h1,
+.story-container h2,
+.story-container h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
