@@ -119,19 +119,19 @@ ol li {
 }
 /* Shirgul Maharaj story text size */
 .story-container {
-    font-size: 20px;
+    font-size: 40px;
     line-height: 1.9;
 }
 
 .story-container p {
-    font-size: 20px;
+    font-size: 40px;
     margin-bottom: 18px;
 }
 
 .story-container h1,
 .story-container h2,
 .story-container h3 {
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
