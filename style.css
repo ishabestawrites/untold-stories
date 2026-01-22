@@ -117,32 +117,29 @@ ol li {
     margin-bottom: 15px;
     text-align: justify;
 }
-/* Shirgul Maharaj story text size */
+/* Shirgul Maharaj story – readable text */
 .story-container {
-    font-size: 40px;
+    font-size: 19px;
     line-height: 1.9;
 }
 
 .story-container p {
-    font-size: 40px;
-    margin-bottom: 18px;
+    font-size: 19px;
 }
 
 .story-container h1,
-.story-container h2,
-.story-container h3 {
-    font-size: 40px;
-    margin-bottom: 20px;
+.story-container h2 {
+    font-size: 32px;
 }
+
 
 @media (max-width: 768px) {
     .story-container {
-        font-size: 19px;
-        padding: 15px;
+        font-size: 18px;
     }
 
     .story-container p {
-        font-size: 19px;
+        font-size: 18px;
     }
 
     .story-container h1,
@@ -150,3 +147,4 @@ ol li {
         font-size: 26px;
     }
 }
+
