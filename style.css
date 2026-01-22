@@ -95,12 +95,13 @@ ol li {
       margin-right: 20px;
   }
 }
+/*shirgul maharaj story container background */
 .story-container {
     max-width: 900px;
     margin: 40px auto;
     padding: 25px;
-    background: rgba(185, 168, 168, 0.6); /* transparent black */
-    color: #101010;
+    background: rgba(7, 7, 7, 0.907); /* transparent black */
+    color: #f2eeee;
     border-radius: 12px;
     line-height: 1.8;
     font-size: 16px;
