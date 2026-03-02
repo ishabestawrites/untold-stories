@@ -10,7 +10,7 @@ body {
 .top-box {
   border: 2px solid black;
   padding: 20px;
-  background-color: rgba(135, 233, 241, 0.952);
+  background-color: rgb(107, 82, 82);
   text-align: center;
 }
 .top-box h1 {
