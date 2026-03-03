@@ -7,14 +7,21 @@
 </head>
 <body style="margin:0; background:url('ishi.jpeg') center/cover no-repeat;">
   <div class="story-container">
+    
+  
+
+  <!-- Language toggle -->
+  <div id="langToggle" style="text-align:center; margin: 20px 0;">
+    <a href="#" onclick="showEnglish()">English</a> | 
+    <a href="#" onclick="showHindi()">हिंदी</a>
+  </div>
+
+  <!-- English content -->
+  <div id="englishStory">
     <h1>SHIRGUL DEVTA -THE SACRED GUARDIAN</h1>
-   
     <p>
       
-
-
-
-
+      
 This story comes from the thirteenth century, during the time when Sultans ruled India. In those days, Delhi was ruled by the Turks, who were called the Slave Dynasty. Their rule lasted from 1206 AD to 1290 AD.
 
 Old stories passed down through generations talk about wars fought with the Turks. These events are also remembered in the ways people worship their deities. From these traditions, it is believed that Shri Shirgul Dev and his brothers and sisters took birth during the early period of Turkish rule, between 1206 and 1210 AD. These divine souls came to earth during this time.
@@ -175,8 +182,12 @@ After completing his divine duties, Shirgul Dev returned to the supreme realm. B
 
 Later rulers came and went—Khiljis, Tughlaqs, and others—many temples were destroyed, and idols were hidden underground. After Sher Shah Suri, temples were rebuilt, idols were rediscovered, and worship resumed. Even today, idols of Bajat Maharaj, Gudai, Bijai, Shirgul Dev, and Chandreshwar Dev have been found in caves and fields, where temples now stand and prayers continue. 
       </p>
+  </div>
+  
 
-  <h2>शिरगुल देव की कथा</h2>
+ 
+   <div id="hindiStory"style="display:none;">
+     <h2>शिरगुल देव की कथा</h2>
   <p>
 
 यह कथा तेरहवीं शताब्दी की है, उस समय की जब भारत में सुल्तानों का शासन था। उन दिनों दिल्ली पर तुर्कों का शासन था, जिन्हें दास वंश के शासक कहा जाता है। उनका शासनकाल 1206 ईस्वी से 1290 ईस्वी तक रहा।
@@ -330,6 +341,16 @@ Later rulers came and went—Khiljis, Tughlaqs, and others—many temples were d
 </p>
   </div> 
 
+<script>
+function showEnglish() {
+  document.getElementById('englishStory').style.display = 'block';
+  document.getElementById('hindiStory').style.display = 'none';
+}
 
+function showHindi() {
+  document.getElementById('englishStory').style.display = 'none';
+  document.getElementById('hindiStory').style.display = 'block';
+}
+</script>
 </body>
 </html>
