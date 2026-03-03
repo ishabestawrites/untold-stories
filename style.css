@@ -148,4 +148,25 @@ ol li {
         font-size: 26px;
     }
 }
+/* animals are not offering*/
+.compassion-line {
+  overflow: hidden;
+  white-space: nowrap;
+  background: rgba(0, 0, 0, 0.6);
+  color: #f5e6c8;
+  padding: 8px 0;
+  font-style: italic;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.compassion-track {
+  display: inline-block;
+  animation: scroll 25s linear infinite;
+}
+
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
 
