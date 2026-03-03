@@ -148,3 +148,16 @@ ol li {
         font-size: 26px;
     }
 }
+/* QUOTE CONTAINER*/
+.quotes-box {
+  margin-top: 40px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #f5e6c8;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+.quotes-box p {
+  margin-bottom: 15px;
+}
