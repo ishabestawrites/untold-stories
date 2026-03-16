@@ -6,11 +6,7 @@
     <title>Contact | Devbhoomipedia</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
             font-family: 'Poppins', sans-serif;
@@ -20,64 +16,44 @@
         }
 
         header {
-            background: #2e7d32;
+            background: #1b5e20;
             color: white;
-            padding: 20px;
+            padding: 25px;
             text-align: center;
         }
 
         section {
-            padding: 60px 20px;
-            max-width: 800px;
+            padding: 80px 20px;
+            max-width: 700px;
             margin: auto;
-        }
-
-        h2 {
-            color: #1b5e20;
-            margin-bottom: 20px;
             text-align: center;
         }
 
         .card {
             background: white;
-            padding: 35px;
+            padding: 40px;
             border-radius: 15px;
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
         }
 
-        form {
-            display: flex;
-            flex-direction: column;
+        h2 {
+            color: #1b5e20;
+            margin-bottom: 20px;
         }
 
-        input, textarea {
-            padding: 12px;
+        p {
             margin-bottom: 15px;
-            border-radius: 8px;
-            border: 1px solid #c8e6c9;
-            font-family: 'Poppins', sans-serif;
-            font-size: 14px;
-        }
-
-        button {
-            padding: 12px;
-            border: none;
-            border-radius: 8px;
-            background: #2e7d32;
-            color: white;
             font-size: 16px;
-            cursor: pointer;
-            transition: 0.3s ease;
         }
 
-        button:hover {
-            background: #1b5e20;
+        a {
+            color: #2e7d32;
+            text-decoration: none;
+            font-weight: 600;
         }
 
-        .contact-info {
-            text-align: center;
-            margin-bottom: 25px;
-            font-size: 14px;
+        a:hover {
+            text-decoration: underline;
         }
 
         footer {
@@ -85,13 +61,7 @@
             padding: 20px;
             background: #1b5e20;
             color: white;
-            margin-top: 40px;
-        }
-
-        @media (max-width: 600px) {
-            section {
-                padding: 40px 15px;
-            }
+            margin-top: 60px;
         }
     </style>
 </head>
@@ -105,19 +75,15 @@
 <section>
     <div class="card">
         <h2>Contact Us</h2>
+        <p>If you would like to share a story, suggest corrections, or contribute to Devbhoomipedia, feel free to reach out.</p>
+        
+        <p><strong>Email:</strong></p>
+        <p><a href="devbhoomipedia@gmail.com">devbhoomipedia@gmail.com</a></p>
+        <p style="margin-top:20px;"><strong>Instagram:</strong></p>
+         <p><a href="https://instagram.com/isha_besta" target="_blank">@isha_besta</a></p>
+        <p style="margin-top:20px;"><strong>Facebook:</strong></p>
+        <p><a href="https://facebook.com/IshaBesta" target="_blank">facebook.com/IshaBesta</a></p>
 
-        <div class="contact-info">
-            <p>Email: yourname@email.com</p>
-            <p>Location: Himachal Pradesh, India</p>
-            <p>Website: www.devbhoomipedia.com</p>
-        </div>
-
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea rows="5" placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
     </div>
 </section>
 
